@@ -22,7 +22,7 @@ client = OpenAI(
 # Loading marketplace_validator_prompt.txt as base prompt
 ## This base prompt is modified further down to output text in a json format
 # --------------------
-with open("marketplace_validator_prompt.txt", "r", encoding="utf-8") as f:
+with open("repo_backend/marketplace_validator_prompt.txt", "r", encoding="utf-8") as f:
     BASE_PROMPT = f.read()
 
 # --------------------
