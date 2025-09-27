@@ -28,16 +28,15 @@ marketplace_validator/
 ├── repo_backend/            # FastAPI backend
 │   ├── main.py              # Backend API code
 │   ├── marketplace_validator_prompt.txt  # Validator prompt for LLM
-│   └── requirements.txt     # Backend dependencies
 │
 ├── repo_frontend/           # Streamlit frontend apps
 │   ├── app.py               # Main Streamlit app
 │   ├── generate_key_app.py  # Generate API Key app
 │   ├── validate_listing_app.py # Validate Listing app
-│   └── requirements.txt     # Frontend dependencies (optional)
 │
 ├── .gitignore               # Git ignore file (includes .env and venv)
 ├── Procfile                 # For deployment (Streamlit)
+├── requirements.txt         # Project dependencies
 └── README.md
 ```
 
@@ -48,7 +47,7 @@ marketplace_validator/
 ### Backend (FastAPI) Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/marketplace_validator.git
+git clone https://github.com/rileena-sanyal/marketplace_validator.git
 cd marketplace_validator/repo_backend
 ```
 2. Create a virtual environment and activate it:
@@ -128,5 +127,5 @@ streamlit run app.py
 ---
 
 **Author:** Rileena Sanyal
-**Date:** 2025-09-27
+**Date:** 27th Sept 2025
 
