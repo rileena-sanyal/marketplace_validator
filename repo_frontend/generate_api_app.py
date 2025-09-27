@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://marketplace-validator.onrender.com"
 
 st.title("🔑 Generate Your API Key")
 st.write("Enter your lender name to generate a unique API key. This key will allow you to validate your credit card listings.")
